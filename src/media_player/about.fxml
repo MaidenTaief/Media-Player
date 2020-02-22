@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="266.0" prefWidth="354.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea blendMode="EXCLUSION" editable="false" prefHeight="224.0" prefWidth="350.0" style="-fx-background-color: BLUE;" text="&#10;TZMplayer&#10;version: 1.0&#10;All Rights Reserved.&#10;&#10;&#10;Thanks for using this FREE program. We hope you like it.&#10;This application is created by using javaFX.&#10;&#10;&#10;Coded by,                                           Dedicated  to&#10;Abu Mohammad Taief                 our beloved teacher&#10;Zarin Tasnim                                  Sujan Sarker sir&#10;Md. Minhaz Ur rahman&#10;" wrapText="true" VBox.vgrow="ALWAYS">
+         <font>
+            <Font name="Sitka Text Bold Italic" size="12.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextArea>
+   </children>
+</VBox>

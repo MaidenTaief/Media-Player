@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="197.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="media_player.CreatePlaylistController">
+   <children>
+      <Label layoutX="27.0" layoutY="44.0" text="Name :" />
+      <Label layoutX="30.0" layoutY="99.0" text="Type :" />
+      <TextField fx:id="name" layoutX="81.0" layoutY="40.0" prefHeight="25.0" prefWidth="215.0" promptText="Enter Name" />
+      <TextField fx:id="type" layoutX="81.0" layoutY="95.0" prefHeight="25.0" prefWidth="215.0" promptText="Enter Type" />
+      <Button fx:id="create" layoutX="245.0" layoutY="148.0" mnemonicParsing="false" onAction="#createButton2" text="Create" />
+   </children>
+</AnchorPane>

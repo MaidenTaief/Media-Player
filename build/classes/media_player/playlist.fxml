@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="337.0" prefWidth="271.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="media_player.PlaylistController">
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="49.0" prefWidth="271.0" spacing="120.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#playButton" text="play" />
+            <Button mnemonicParsing="false" onAction="#selectButton" text="Select" />
+         </children>
+      </HBox>
+   </bottom>
+   <top>
+      <VBox prefHeight="294.0" prefWidth="271.0" BorderPane.alignment="CENTER">
+         <children>
+            <ListView fx:id="pl" blendMode="DARKEN" VBox.vgrow="ALWAYS">
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </ListView>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>
